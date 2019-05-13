@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="149.0" prefWidth="345.0" style="-fx-background-color: #e5e979;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="User">
+    <children>
+        <TextArea fx:id="text1" layoutX="6.0" layoutY="23.0" prefHeight="38.0" prefWidth="116.0" promptText="Первый операнд" />
+      <TextArea fx:id="text2" layoutX="234.0" layoutY="23.0" prefHeight="38.0" prefWidth="108.0" promptText="Второй операнд" />
+      <Button fx:id="send" layoutX="251.0" layoutY="72.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" text="Отправить" />
+      <TextArea fx:id="operation" layoutX="127.0" layoutY="22.0" prefHeight="38.0" prefWidth="95.0" promptText="Операция" />
+      <TextArea fx:id="answer" layoutX="6.0" layoutY="66.0" prefHeight="38.0" prefWidth="116.0" promptText="Ответ" />
+    </children>
+</AnchorPane>
